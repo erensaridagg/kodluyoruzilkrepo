@@ -22,7 +22,7 @@
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 18px;
         font-style: italic;
-        color:cornflowerblue;
+        color: cornflowerblue;
         text-align: center;
         list-style-position: inside;
 
@@ -33,7 +33,7 @@
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 18px;
         font-style: italic;
-        color:rgb(7, 7, 7);
+        color: rgb(7, 7, 7);
         text-align: center;
         list-style-position: inside;
 
@@ -41,10 +41,10 @@
 
 
 }
+
 .img {
         width: 300px;
-        heigt: 300px;   
+        heigt: 300px;
         border: 5px solid #f00;
         list-style-position: inside
-
 }
