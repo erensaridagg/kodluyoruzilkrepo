@@ -3,54 +3,56 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> WELCOME TO ES BOOK STORE</title>
-    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WELCOME TO ES BOOK STORE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #E9ECEF;
+        }
+    </style>
 </head>
 
 <body>
-    <header>
-        <h1 style="background-color: chocolate;text-align:center;color: azure;"><b>ES BOOK STORE</b></h1>
-        <div style="color:white; background-color: yellowgreen; text-align: center; ">
-            <h3><a href="index.html" title="homepage"> Homepage </a> <br>
-                <a href="about-us.html" title="short information about our company">About Us</a><br>
-                <a href="products.html" title="products on sale"> Books</a>
-            </h3>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">ES BOOK STORE</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto navbar-text">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Homepage</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Books</a></li>
+                </ul>
+            </div>
         </div>
-    </header>
-    <article>
-        <div class="divanasayfa-baslik"><br>
-            <h2 style="background-color: rgb(202, 37, 180);text-align:center;color: white;">Homepage</h2>
+    </nav>
+
+    <!-- Jumbotron  start-->
+    <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="container-fluid py-5">
+            <div class="text-center">
+                <h1 class="">Welcome to ES BOOK STORE</h1>
+                <p class="col-md-8 fs-4">On this site, you can find books in various genres. Check out our Products pagefor
+affordable and quality selections.</p>
+                <a href="products.html" class="btn btn-primary btn-lg">Browse Books</a>
+            </div>
         </div>
+    </div>
 
-        <BR>
-        <P class="anasayfa-tanitim">Welcome to ES BOOK STORE! On this site you can find books in various book genres.You
-            can visit our <a href="products.html" title="kaliteli kitaplar">Products</a> page for our affordable prices
-            and quality products.
-            sayfamızı ziyaret edebilrsiniz </P>
+    <!-- Book Types -->
+    <div class="container text-center">
+        <h3 class="bg-secondary text-white p-2 rounded">Types of Books</h3>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Science Fiction</li>
+            <li class="list-group-item">Novel</li>
+            <li class="list-group-item">Adventure</li>
+            <li class="list-group-item">Biography</li>
+            <li class="list-group-item">Poetry</li>
+        </ul>
+    </div>
 
-        <div class="anasayfa-siralama">
-            <h3 style="background-color: gray;text-align:center;color: azure;">Types of Books Available on Our Site</h3>
-            <br>
-
-
-            <ul style="text-align:center;color: black;">
-                <li>Science Fiction</li>
-                <li>Novel</li>
-                <li>Adventure</li>
-                <li>Biography</li>
-                <li>Poetry</li>
-
-            </ul>
-
-        </div>
-
-
-
-
-
-    </article>
 </body>
 
 </html>
